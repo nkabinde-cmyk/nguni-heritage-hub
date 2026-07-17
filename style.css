@@ -180,4 +180,42 @@ button:hover {
 
 header h1 {
     font-size: 50px;
+}.quote{
+    margin-top:10px;
+    font-style:italic;
+    opacity:0.9;
+}
+
+.languages,
+.about{
+    background:white;
+    width:80%;
+    margin:30px auto;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.languages h2,
+.about h2{
+    margin-bottom:15px;
+}
+
+.language-list{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.language-list span{
+    background:#0d5c63;
+    color:white;
+    padding:10px 20px;
+    border-radius:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:white;
 }
