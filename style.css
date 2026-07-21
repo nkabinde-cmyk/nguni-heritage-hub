@@ -244,4 +244,8 @@ button:hover {
     margin-top: 20px;
     font-style: italic;
     opacity: 0.9;
+}footer {
+    text-align: center;
+    color: white;
+    padding: 30px;
 }
