@@ -341,16 +341,14 @@ button:hover{
 }
 
 .language-list span{
-
     background:var(--green);
-
     color:white;
-
     padding:12px 22px;
-
     border-radius:30px;
-
+    border:2px solid var(--gold);
+    font-weight:bold;
     transition:.3s;
+}
 
 }
 
