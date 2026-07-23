@@ -21,8 +21,8 @@ const clans = [
             "Ibhubesi elingehlulwa!",
             "Owagezela esizibeni sobungwele nesobukhosi!"
         ]
-    }
-];Dube:{
+    },
+Dube:{
 
 meaning:"Zebra.",
 
