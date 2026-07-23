@@ -368,9 +368,9 @@ button:hover{
 
 .about{
 
+   .languages{
     background:white;
-
-    color:var(--text);
+    color:var(--green);
 
     padding:35px;
 
