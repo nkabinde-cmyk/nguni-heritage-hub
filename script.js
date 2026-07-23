@@ -1,56 +1,79 @@
 function searchClan() {
 
-    const surname =
-        document.getElementById("searchInput")
+    const surname = document
+        .getElementById("searchInput")
         .value
         .toLowerCase();
 
-    const result =
-        document.getElementById("result");
+    const result = document
+        .getElementById("result");
 
-    if (surname === "judah") {
 
-        result.innerHTML = `
-            <h2>🦁 JUDAH</h2>
-            <p><em>"The Lion of Praise"</em></p>
+    const clan = clans.find(
+        clan => clan.name.toLowerCase() === surname
+    );
 
-            <p><strong>Language:</strong> IsiZulu</p>
-            <p><strong>Region:</strong> South Africa</p>
-            <p><strong>Totem:</strong> Lion</p>
 
-            <h3>Izithakazelo</h3>
+    if (clan) {
 
-            <ul>
-                <li>Makhosini!</li>
-                <li>Gagashe!</li>
-                <li>Ndabezitha!</li>
-                <li>Mbongambi!</li>
-                <li>Mvelase!</li>
-                <li>Makhwesi!</li>
-                <li>Dlabazitha!</li>
-                <li>Nzwakele!</li>
-                <li>Mkhonto ongaguqi!</li>
-                <li>Zwide!</li>
-                <li>Ntenge'ngafuqwa!</li>
-                <li>Ibhubesi elingehlulwa!</li>
-                <li>Owagezela esizibeni sobungwele nesobukhosi!</li>
-            </ul>
-        `;
+        let praises = "";
 
-    } else {
+        clan.izithakazelo.forEach(function(item) {
+
+            praises += `<li>${item}</li>`;
+
+        });
+
 
         result.innerHTML = `
-            <h2>Not Found</h2>
-            <p>We could not find that surname.</p>
+        
+        <h2>🦁 ${clan.name.toUpperCase()}</h2>
+
+        <p><strong>Language:</strong> ${clan.language}</p>
+
+        <p><strong>Region:</strong> ${clan.region}</p>
+
+        <p><strong>Totem:</strong> ${clan.totem}</p>
+
+        <br>
+
+        <p><strong>History:</strong> ${clan.history}</p>
+
+        <h3>Izithakazelo</h3>
+
+        <ul>
+        ${praises}
+        </ul>
+
         `;
+
     }
+
+    else {
+
+        result.innerHTML = `
+        
+        <h2>Not Found</h2>
+
+        <p>
+        We could not find that surname.
+        </p>
+
+        `;
+
+    }
+
 }
+
+
 document
-    .getElementById("searchInput")
-    .addEventListener("keypress", function(event) {
+.getElementById("searchInput")
+.addEventListener("keypress", function(event){
 
-        if (event.key === "Enter") {
-            searchClan();
-        }
+    if(event.key === "Enter"){
 
-    });
+        searchClan();
+
+    }
+
+});
