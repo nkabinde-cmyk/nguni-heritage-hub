@@ -454,4 +454,14 @@ text-align:center;
 
 }
 
+}.languages h2,
+.about h2,
+#result h2{
+    color: var(--green);
+}
+
+.languages p,
+.about p,
+#result p{
+    color: var(--text);
 }
