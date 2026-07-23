@@ -22,8 +22,9 @@ const clans = [
             "Owagezela esizibeni sobungwele nesobukhosi!"
         ]
     },
-Dube:{
 
+{
+        name: "Dube",
 meaning:"Zebra.",
 
 language:"isiZulu / isiNdebele",
