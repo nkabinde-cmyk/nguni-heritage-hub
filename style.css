@@ -41,10 +41,9 @@ border-bottom:4px solid var(--gold);
 header h1{
 
 margin:0;
-
-font-size:4rem;
-
+font-size:4.5rem;
 color:var(--gold);
+letter-spacing:4px;
 
 }
 
