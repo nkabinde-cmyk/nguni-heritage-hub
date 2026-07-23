@@ -446,7 +446,35 @@ text-align:center;
     color:var(--green);
 
 }
+#result h3{
 
+    color:var(--gold);
+
+    margin-top:20px;
+
+}
+
+#result li{
+
+    margin-left:25px;
+
+    line-height:1.8;
+
+}#result h3{
+
+    color:var(--gold);
+
+    margin-top:20px;
+
+}
+
+#result li{
+
+    margin-left:25px;
+
+    line-height:1.8;
+
+}
 .languages p,
 .about p,
 #result p{
