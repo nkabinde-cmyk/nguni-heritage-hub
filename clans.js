@@ -5,7 +5,7 @@ const clans = [
     language: "IsiZulu",
     region: "Southern Africa",
     totem: "Lion",
-    history: "The Judah clan was established among the Nguni people in Southern Africa during the early 2020s.",
+    history: "The Judah clan was established among the Nguni people in Southern Africa during the early 2020s. Recognised for king-like leadership and priesthood.",
     izithakazelo: [
         "Makhosini!",
         "Gagashe!",
