@@ -63,7 +63,26 @@ const clans = [
         "Mahlahla!"
     ]
 },
+{
+    name: "Nkabinde",
+    language: "IsiZulu",
+    region: "Southern Africa",
+    totem: "Lion",
+    history: "The Nkabinde surname is among the respected Nguni lineages of Southern Africa and is known for its rich cultural heritage, courage and leadership.",
 
+    izithakazelo: [
+        "Nkabinde!",
+        "Mhlabeni!",
+        "Mgemane!",
+        "Somkhiqizo!",
+        "Mfaz' omnyama!",
+        "Nina bakwaMgemane!",
+        "Nina bakaMphemba!",
+        "Nina bakwaSojiyisa!",
+        "Nina bakwaMashiy'ahlukene!",
+        "Bayede!"
+    ]
+},
 {
     name: "Shongwe",
     language: "IsiZulu / IsiNdebele",
