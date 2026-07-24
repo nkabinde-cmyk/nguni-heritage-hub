@@ -6,7 +6,6 @@ const clans = [
     region: "Southern Africa",
     totem: "Lion",
     history: "The Judah clan was established among the Nguni people in Southern Africa during the early 2020s.",
-
     izithakazelo: [
         "Makhosini!",
         "Gagashe!",
@@ -30,8 +29,7 @@ const clans = [
     language: "IsiZulu / IsiNdebele",
     region: "Southern Africa",
     totem: "Zebra",
-    history: "The Dube surname is one of the respected Nguni surnames found across Southern Africa and carries a rich heritage of leadership, dignity and service.",
-
+    history: "The Dube surname is one of the respected Nguni surnames found across Southern Africa.",
     izithakazelo: [
         "Khushwayo!",
         "Lushozi!",
@@ -51,8 +49,7 @@ const clans = [
     language: "IsiZulu / IsiNdebele",
     region: "Southern Africa",
     totem: "Elephant",
-    history: "The Ndlovu clan symbolizes wisdom, strength and resilience and is found among several Nguni-speaking communities across Southern Africa.",
-
+    history: "The Ndlovu clan symbolizes wisdom, strength and resilience among Nguni-speaking peoples.",
     izithakazelo: [
         "Ndlovu!",
         "Gatsheni!",
@@ -73,7 +70,6 @@ const clans = [
     region: "Southern Africa",
     totem: "Leopard",
     history: "The Shongwe surname carries a rich cultural heritage among Nguni-speaking peoples across Southern Africa.",
-
     izithakazelo: [
         "Shongwe!",
         "Mthimkhulu!",
@@ -93,8 +89,7 @@ const clans = [
     language: "IsiZulu",
     region: "Southern Africa",
     totem: "Lion",
-    history: "The Shange clan has a long and respected history among Nguni-speaking peoples and remains one of the historic surnames of Southern Africa.",
-
+    history: "The Shange clan has a long and respected history among Nguni-speaking peoples of Southern Africa.",
     izithakazelo: [
         "Shange!",
         "Mageba!",
@@ -107,14 +102,14 @@ const clans = [
         "Goba!",
         "Ntshalintshali!"
     ]
-}
+},
+
 {
     name: "Khumalo",
     language: "IsiZulu / IsiNdebele",
     region: "Southern Africa",
     totem: "Lion",
-    history: "The Khumalo surname is one of the great Mntungwa lineages of Southern Africa and is closely associated with King Mzilikazi kaMashobana and the rich heritage of the Nguni peoples.",
-
+    history: "The Khumalo surname forms part of the great Mntungwa lineage and is associated with King Mzilikazi kaMashobana.",
     izithakazelo: [
         "Khumalo!",
         "Mntungwa!",
@@ -123,11 +118,9 @@ const clans = [
         "Mzilikazi kaMashobana!",
         "Shobana noGasa kaZikode!",
         "Zikode kaMkhatshwa!",
-        "Wena owakhatshwa ngezinde nangezimfushanyana izinyawo!",
         "Mabaso!",
-        "Wena owabas' entabeni kwadliwa ilanga lishona!",
         "BaNtungw' abancwaba!",
-        "Mantungw' amahle!"
+        "Mantungwa amahle!"
     ]
 },
 
@@ -136,8 +129,7 @@ const clans = [
     language: "IsiZulu / Siswati",
     region: "Southern Africa",
     totem: "Baboon",
-    history: "The Mdluli clan is among the ancient Nguni lineages of Southern Africa and has historical ties with the Ngwane royal traditions and neighbouring Nguni peoples.",
-
+    history: "The Mdluli clan is among the ancient Nguni lineages of Southern Africa.",
     izithakazelo: [
         "Mdluli!",
         "Bhekiswayo!",
@@ -157,8 +149,7 @@ const clans = [
     language: "IsiZulu / Siswati",
     region: "Southern Africa",
     totem: "Lion",
-    history: "The Dlamini surname is one of the royal lineages of Southern Africa and forms an important part of the heritage of the Nguni-speaking peoples.",
-
+    history: "The Dlamini surname is one of the royal lineages of Southern Africa and holds a prominent place in Nguni heritage.",
     izithakazelo: [
         "Dlamini!",
         "Lusibalukhulu!",
@@ -178,8 +169,7 @@ const clans = [
     language: "IsiZulu / IsiNdebele",
     region: "Southern Africa",
     totem: "Lion",
-    history: "The Mntungwa lineage is among the great ancestral houses of the Nguni peoples and has given rise to several respected Southern African clans.",
-
+    history: "The Mntungwa lineage is among the great ancestral houses of the Nguni peoples and has given rise to several respected clans.",
     izithakazelo: [
         "Mntungwa!",
         "Mbulazi!",
@@ -189,9 +179,9 @@ const clans = [
         "Gasa!",
         "Mkhatshwa!",
         "Mawela!",
-        "Nkomo!",
         "BaNtungwa!",
         "Mantungwa amahle!"
     ]
-},
+}
+
 ];
