@@ -14,7 +14,7 @@ const clans = [
         "Mbongambi!",
         "Mvelase!",
         "Makhwesi!",
-        "Dlabazitha!"
+        "Dlabazitha!",
         "Hlatswayo!",
         "Nzwakele!",
         "Mkhonto ongaguqi!",
