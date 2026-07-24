@@ -1,7 +1,7 @@
 const clans = [
 
 {
-    name: "Judah",
+    name: "Test",
     language: "IsiZulu",
     region: "Southern Africa",
     totem: "Lion",
